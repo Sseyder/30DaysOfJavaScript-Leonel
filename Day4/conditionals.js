@@ -95,3 +95,10 @@ switch (day) {
     default:
         console.log('It is not a week day.');
 }
+
+// Operadores Ternarios
+// Otra forma de escribir condicionales
+let isRaining2 = true
+isRaining2
+? console.log('You need a rain coat.')
+: console.log('No need for a rain coat.')
