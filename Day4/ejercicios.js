@@ -124,9 +124,9 @@ function checkWorkingDay(day) {
     };
 };
 
-let userScore = prompt("Ingrese su nota de examen:");
-let userMonth = prompt("Ingrese el mes:");
-let userDay = prompt("Ingrese el día de la semana:");
+let userScore = prompt("Ingrese su nota de examen (0 - 100):");
+let userMonth = prompt("Ingrese el mes (Enero - Diciembre):");
+let userDay = prompt("Ingrese el día de la semana (Domingo - Sabado):");
 
 let score = parseInt(userScore);
 let month = userMonth.trim();
