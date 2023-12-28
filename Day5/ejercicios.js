@@ -132,3 +132,25 @@ let lastThreeCompanies = itCompanies.slice(-3);
 console.log('Last 3 Companies:', lastThreeCompanies);
 
 // 19. Slice out the middle IT company or companies from the array
+let middleIndex = Math.floor(itCompanies.length / 2);
+let middleArrayCompany = itCompanies.slice(middleIndex, middleIndex + 1);
+console.log('Middle Company:', middleArrayCompany);
+
+// 20. Remove the first IT company from the array
+let removeFirstCompany = itCompanies.shift();
+console.log('Modified Companies Array:', itCompanies);
+console.log('Removed Company:', removeFirstCompany);
+
+// 21. Remove the middle IT company or companies from the array
+let removeMiddleCompany = itCompanies.splice(middleIndex, 1);
+console.log('Modified Companies Array:', itCompanies);
+console.log('Removed Company:', removeMiddleCompany);
+
+// 22. Remove the last IT company from the array
+let removeLastCompany = itCompanies.pop();
+console.log('Modified Companies Array:', itCompanies);
+console.log('Removed Company:', removeLastCompany);
+
+// 23. Remove all IT companies
+itCompanies = [];
+console.log('Modified IT Companies Array:', itCompanies);
